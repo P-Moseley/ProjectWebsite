@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problemsXML>
+	<problem>
+ <problem-title>Blue screen of death</problem-title>
+ <problem-description>Computer/laptop will not start instead shows a blue screen with a sad face and the text "Your PC ran into a problem and needs to restart. We're just collecting some error info, and then we'll restart for you". Or computer/laptop works for a short amount of time but randomly crashes and shows the error message detailed above.
+ </problem-description>
+ <fix>Wait for the computer to restart, then open CMD as administrator. Open the Windows menu and type CMD then right click CMD and 'Run as administrator'. Once opened type in the following command SFC /SCANNOW, when this is complete restart your computer.
+
+The blue screen of death as it is known can be caused by a multitude of different problems. If the above method does not work then we highly recommend that you bring the machine in so we can isolate the cause of the error.
+ </fix>
+</problem>
+<problem>
+ <problem-title>Computer is slow</problem-title>
+ <problem-description> Your computer is running slowly and/or seems unresponsive</problem-description>
+ 
+ <fix>Some programs will AutoStart when Windows starts, to stop these press CTRL+ALT+Delete at the same time, then click Task Manager. When Windows task manager opens click on the "Start-up" tab. From this tab you can see the auto starting applications. To disable these applications right click on them and click disable. 
+
+ Removing unused applications can improve performance. To do this click on the Windows button and type in "control panel", then under the Programs tab there is a button labelled "Uninstall a program": click this. You will see a list of installed applications, to uninstall a program select it and right click and click uninstall. You will have to go though some more pages and you computer may restart. Uninstall the programs you don't use to maximise performance
+
+ If you like we can preform these actions for you, just bring you laptop in and we will see what we can do. 
+
+ We upgrade computers daily, by far the most popular upgrade we preform is solid state drive upgrade. We will remove the old mechanical hard-drive and replace it with a solid state drive. Your old files will be cloned to the new drive, you will keep all saved passwords and settings. 
+
+ What is a Solid state drive: Solid state drive act like hard-disk-drives but instead of relying on a rotating disk, SSD's use a similar technology to USB sticks. No moving parts makes SSD's more reliable that mechanical drives. SSD's also have a significant performance boost, typically SSD will preform 5-12 times faster that hard-disk.
+
+ At Knutsford IT we have upgraded 1000's of laptops and computers with solid state drives. No risk of data loss as the old drive is always backed-up before cloning takes place. 
+</fix>
+</problem>
+</problemsXML>
+
