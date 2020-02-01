@@ -221,5 +221,13 @@ footer {
   scroll-snap-type: y mandatory;
   
 }
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+body.modal-open {
+  overflow: visible;
+}
 
 
