@@ -5,12 +5,14 @@ $( 'a[href*="#"]' ).on( 'click', function( e ) {
 	}, 100, 'linear' )
 } )
 $( document ).ready( function() {
-	alert( "This is a project website, I have express permission from the shop owner to use his images and content. This website is not completely representative of Knutsford IT " )
+	
+	alert( "This is a project website, I have express permission from the shop owner to use his images and content. This website is not representative of Knutsford IT " )
 	// $('#mapModal').modal() 
 	$( '#BTNmapModal' ).click( function() {
 		// google.maps.event.trigger(map, "resize");
 		$( '#mapModal' ).modal( 'show' )
 	} );
+	
 	checkInput()
 
 	function checkInput() {
